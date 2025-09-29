@@ -31,8 +31,8 @@ img {
 }
 
 .promo {
-    height: 100vh;
-    background: url("../img/Main\ bg.jpg") no-repeat center/cover;
+    height: 800px;
+    background: url("../img/Main_bg.jpg") no-repeat center/cover;
 
     text-align: center;
     
@@ -105,17 +105,228 @@ img {
     margin: 15px auto 0;
 }
 
+.about {
+    height: 592px;
+    background: url("../img/About_bg.png") no-repeat center/cover;
+
+    text-align: center;
+    
+    padding: 80px;
+}
+
+.about__title {
+    height: 35px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.about__hr {
+    border: none;
+    margin-top: 20px;
+    background-color: #F9BF3B;
+    width:  220px;
+    height: 7px;
+}
+
+.about__subtitle {
+    height: 35px;
+    font-size: 30px;
+    color: #4A4A4A;
+    margin-top: 20px;
+}
+
 .about__container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 40px 300px;
 }
 
 .about__item {
-    width: 300px;
-    height: 300px;
-    background-color: #F9BF3B;
+    width: 342px;
+    height: 400px;
+    background-color: transparent;
     text-align: center;
-    color: white;
-    font-size: 40px;
+    color: #4A4A4A;
+    font-size: 16px;
 }
+
+.about__item img {
+    margin-bottom: 15px;
+}
+
+.what__and__why {
+    position: relative;
+    height: 564px;
+    background-color: black;
+    text-align: right;
+    padding: 100px;
+}
+
+.what__and__why img {
+    position: absolute;
+    margin-top: 91px;
+    margin-left: 307px;
+    z-index: 1;
+}
+
+.what__title {
+    text-transform: uppercase;
+    color: #F9BF3B;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 817px;
+    width: 713px;
+    z-index: 2;
+}
+
+.what__and__why p {
+    position: relative;
+    width: 750px;
+    margin-top: 15px;
+    margin-left: 780px;
+    color: white;
+    font-size: 16px;
+    z-index: 2;
+}
+
+.what__p__bolded {
+    font-weight: bold;
+}
+
+.after {
+    height: 450px;
+    background: url("../img/After_bg.jpg") no-repeat center/cover;
+    text-align: center;
+    padding: 80px;
+}
+
+.after__title {
+    height: 35px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #EFEFEF;
+}
+
+.after_hr {
+    border: none;
+    margin-top: 20px;
+    background-color: #F9BF3B;
+    width:  220px;
+    height: 7px;
+}
+
+.after__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 300px;
+}
+
+.after__img__container {
+    width: 118px;
+    height: 118px;
+    background-color:#F9BF3B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.after__item {
+    width: 224px;
+    height: 174px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    justify-content: top;
+    align-items: center;
+    color: #EFEFEF;
+    font-size: 16px;
+}
+
+.gift {
+    height: 613px;
+    background: url("../img/Gift_bg.jpg") no-repeat center/cover;
+    text-align: center;
+    padding: 80px;
+}
+
+.gift img {
+    width: 155px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.gift p {
+    width: 1116px;
+    height: 91px;
+    font-size: 30px;
+    color: #252525;
+    margin: 80px auto 0 auto;
+}
+
+.gift__button {
+    width: 315px;
+    height: 72px;
+    background: linear-gradient(#FEB05D, #FF4D00);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 21px;
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    margin: 60px auto;
+}
+
+.webinar {
+    height: 528px;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.webinar img {
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.webinar__title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 25px;
+}
+
+.webinar__time {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #F9BF3B;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.webinar__promo {
+    font-size: 23px;
+    color: #EFEFEF;
+    margin-top: 25px;
+}
+
+.footer {
+    height: 165px;
+    background: url("../img/Footer_bg.png") no-repeat center/cover;
+    text-align: center;
+    padding: 60px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #888888;
+    margin-top: 5px;
+}
+
 
