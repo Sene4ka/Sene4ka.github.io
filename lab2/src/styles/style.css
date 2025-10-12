@@ -74,7 +74,6 @@ img {
     display: block;
     width: 1140px;
     margin: 20px auto 0;
-    margin-top: 20px;
     font-size: 21px;
     line-height: 28px;
 }
@@ -242,7 +241,6 @@ img {
     flex-direction: column;
     gap: 15px;
     text-align: center;
-    justify-content: top;
     align-items: center;
     color: #EFEFEF;
     font-size: 16px;
@@ -250,7 +248,6 @@ img {
 
 .gift {
     height: 613px;
-    background: url("../img/Gift_bg.jpg") no-repeat center/cover;
     text-align: center;
     padding: 80px;
 }
